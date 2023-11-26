@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from "./Navbar";
 import "./Home.css";
-import Footer from "./Footer"
+import Footer from "./Footer";
+
 
 
 function Home() {
@@ -352,6 +353,7 @@ function Home() {
           </section>
         </div>
       </div>
+      
       <Footer />
     </div>
   );

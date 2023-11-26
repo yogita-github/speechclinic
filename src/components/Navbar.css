@@ -200,4 +200,29 @@ select:focus{
   outline:none;
 }
 
-
+/* Mobile css */
+@media only screen and (max-width: 412px) {
+  .bottom_nav{
+    max-width: 412px;
+  }
+  .bottom_nav li {
+    font-size:12px;
+  width: 412px;
+  
+}
+.parent_upper_nav .upper_nav .timing {
+  color: #f6f6f6;
+  font-size: 13px;
+  margin:20px;
+  
+}
+.time_logo{
+  display: none;
+}
+.bottom_nav ul {
+  width:412px;
+}
+.bottom_nav ul li{
+  display: none;
+}
+}

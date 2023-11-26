@@ -387,3 +387,14 @@ details[open] div {
   padding: 0.5em 1em;
 }
 
+@media only screen and (max-width: 412px) {
+  .class1 {
+  /* border: 1px solid black; */
+  height: 60px;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+}

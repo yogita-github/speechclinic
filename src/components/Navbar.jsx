@@ -9,6 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FiWatch } from "react-icons/fi";
 
 
+
 const Navbar = () => {
   return (
     <>

@@ -11,15 +11,17 @@ import Services from "./components/Services";
 const App = () => {
   return (
     <Router>
-     
-      <Home/>
-      <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/appointment" component={Appointment} />
-        <Route path="/services" component={Services} />
-      </Routes>
+      {/* <Home/>
+      <About/> */}
+      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      
     </Router>
   );
 };
