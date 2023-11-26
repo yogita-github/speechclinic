@@ -1,21 +1,14 @@
-// import React from 'react'
-
-// function About() {
-//   return (
-//     <div>
-//    bgefgufirfuhfhrfi
-//     </div>
-//   )
-// }
-
-// export default About
 import React from 'react'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function About() {
   return (
-    <div>
-      about
-    </div>
+    <>
+    <Navbar/>
+      <div>about</div>
+      <Footer/>
+    </>
   );
 }
 

@@ -16,9 +16,7 @@ const Navbar = () => {
       <div className="parent_upper_nav">
         <div className="upper_nav">
           <p className="timing">Mon-Sat:10 am–2 pm, 4–8 pm</p>
-          <div className="timer">
-            <FiWatch className="time_logo" />
-          </div>
+          
           <Link to="#" className="rounded_button">
             <FaPhoneAlt className="phone" />
           </Link>
@@ -73,14 +71,15 @@ const Navbar = () => {
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <select name="more1" id="more1">
+            {/* <select name="more1" id="more1">
               <option value="details">Details</option>
               <option value="navigation">Navigation</option>
               <option value="patient_form">Patient Form</option>
               <option value="More" selected className="dropdown">
                 More
               </option>
-            </select>
+            </select> */}
+            <Link to="/navigation">Navigation</Link>
           </li>
         </ul>
       </div>

@@ -7,21 +7,21 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Appointment from "./components/Appointment";
 import Services from "./components/Services";
-
+import Navigation from './components/Navigation';
 const App = () => {
   return (
     <Router>
       {/* <Home/>
       <About/> */}
-      
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/appointment" element={<Appointment />} />
-          <Route path="/services" element={<Services />} />
-        </Routes>
-      
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/appointment" element={<Appointment />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/navigation" element={<Navigation />} />
+      </Routes>
     </Router>
   );
 };

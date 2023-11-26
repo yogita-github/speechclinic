@@ -80,8 +80,8 @@ function Home() {
         <div className="team">
           <h1 className="header">Our Hearing and Speech Therapists</h1>
           <hr className="team_underline" />
-          <div class="therapists-container">
-            <div class="therapist">
+          <div className="therapists-container">
+            <div className="therapist">
               <img
                 src="https://img.freepik.com/free-photo/mid-shot-woman-therapist-with-clipboard_23-2148759113.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=sph"
                 alt="Therapist 1"
@@ -90,7 +90,7 @@ function Home() {
               <p>Speech Therapist</p>
             </div>
 
-            <div class="therapist">
+            <div className="therapist">
               <img
                 src="https://img.freepik.com/free-photo/portrait-corporate-woman-holding-clipboard-work-standing-formal-outfit-white-background_1258-88411.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=sph"
                 alt="Therapist 2"
@@ -99,7 +99,7 @@ function Home() {
               <p>Hearing Therapist</p>
             </div>
 
-            <div class="therapist">
+            <div className="therapist">
               <img
                 src="https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175225.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=ais"
                 alt="Therapist 3"
@@ -108,7 +108,7 @@ function Home() {
               <p>Speech Therapist</p>
             </div>
 
-            <div class="therapist">
+            <div className="therapist">
               <img
                 src="https://img.freepik.com/free-photo/psychologist-cute-young-professional-brunette-lady-providing-online-sessions-glasses_140725-167583.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=sph"
                 alt="Therapist 4"
@@ -117,7 +117,7 @@ function Home() {
               <p>Hearing Therapist</p>
             </div>
 
-            <div class="therapist">
+            <div className="therapist">
               <img
                 src="https://img.freepik.com/free-photo/ceo-company_1098-21107.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=ais"
                 alt="Therapist 5"
@@ -129,10 +129,10 @@ function Home() {
         </div>
 
         {/* faq */}
-        <div class="faq_page">
+        <div className="faq_page">
           <h1>Frequently Asked Questions</h1>
           <div className="parent_faq">
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>
                   Q: What services do you offer for speech disorders?
@@ -144,7 +144,7 @@ function Home() {
                 </div>
               </details>
             </div>
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>Q: How can I schedule an appointment?</summary>
                 <div>
@@ -154,7 +154,7 @@ function Home() {
                 </div>
               </details>
             </div>
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>Q: Do you provide hearing tests for children?</summary>
                 <div>
@@ -164,7 +164,7 @@ function Home() {
                 </div>
               </details>
             </div>
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>
                   Q: Are there specific signs that indicate a hearing problem in
@@ -177,7 +177,7 @@ function Home() {
                 </div>
               </details>
             </div>
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>
                   Q: How long does a typical speech therapy session last?
@@ -190,7 +190,7 @@ function Home() {
                 </div>
               </details>
             </div>
-            <div class="container">
+            <div className="container">
               <details>
                 <summary>
                   Q: Do you provide services for individuals with communication
@@ -208,79 +208,79 @@ function Home() {
         </div>
         {/* Testimonials */}
         <div className="parent_cards">
-          <div class="background"></div>
-          <div class="background-texture"></div>
+          <div className="background"></div>
+          <div className="background-texture"></div>
 
-          <section class="carousel">
-            <h2 class="categories__title">Testimonials</h2>
-            <div class="carousel__container">
-              <div class="carousel-item">
+          <section className="carousel">
+            <h2 className="categories__title">Testimonials</h2>
+            <div className="carousel__container">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://img.freepik.com/free-photo/nice-job-well-done-great-proud-good-looking-satisfied-female-entrepreneur-showing-thumbs-up-smiling-delighted-pleased-seeing-good-result-encouraging-assitant-keep-up-liking-plan-approving_176420-35529.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=ais"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">
+                  <h5 className="carousel-item__details--title">
                     Aishwarya Kudchikar
                   </h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h6 className="carousel-item__details--subtitle">
                     My friend referred me this clinic and my overall
                     <br /> experience was very good.
                   </h6>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">Amit Jadhav</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">Amit Jadhav</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     Best treatment 👌
                   </h6>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://img.freepik.com/free-photo/woman-holding-blushing-emoticon-using-laptop_53876-71024.jpg?size=626&ext=jpg&ga=GA1.1.1315413171.1679411364&semt=ais"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">Rajat Nikam</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">Rajat Nikam</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     Great service!!
                   </h6>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">Siddhesh Kamble</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">Siddhesh Kamble</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     My experience with the Rajshri Speech & Hearing Clinic
                     <br />
                     has been excellent. Rajshri ma'am patiently guided us
@@ -289,19 +289,19 @@ function Home() {
                   </h6>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">Kumar Gautam -</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">Kumar Gautam -</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     Experienced excellent Service at the Centre. And wish
                     <br />
                     the clinic would keep serving the best treatment to
@@ -310,38 +310,38 @@ function Home() {
                   </h6>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">Pramod Sakhare</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">Pramod Sakhare</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     The consultation provided by Rajshree maam was <br />
                     invaluable. I got all my doubts cleared.
                   </h6>
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
-                  class="carousel-item__img"
+                  className="carousel-item__img"
                   src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
                   alt="people"
                 />
-                <div class="carousel-item__details">
-                  <div class="controls">
-                    <span class="fas fa-play-circle"></span>
-                    <span class="fas fa-plus-circle"></span>
+                <div className="carousel-item__details">
+                  <div className="controls">
+                    <span className="fas fa-play-circle"></span>
+                    <span className="fas fa-plus-circle"></span>
                   </div>
-                  <h5 class="carousel-item__details--title">suraj kode</h5>
-                  <h6 class="carousel-item__details--subtitle">
+                  <h5 className="carousel-item__details--title">suraj kode</h5>
+                  <h6 className="carousel-item__details--subtitle">
                     I visited rajshree mams clinic regarding <br />
                     hearing problem,,very good experience n good <br />
                     clinic... thank you mam,very good experience

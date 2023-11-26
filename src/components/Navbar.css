@@ -71,15 +71,7 @@ nav {
   font-size: 15px;
   padding: 10px 10px 10px 0px;
 }
-.time_logo {
-  color: hsl(0, 0%, 100%);
-  height: 25px;
-  width: 25px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  display: flex;
-  padding: 10px 10px 10px 0px;
-}
+
 
 .phone {
   align-items: flex-start;
@@ -173,15 +165,7 @@ nav .left_nav .logo {
 
   font-size: 15px;
 }
-select{
-  border:none;
-  border-radius:5px;
-  color:#050505;
-  padding-top:5px;
-  text-align: center;
-  background: #13cdca;
-  
-}
+
 .link_before{
   /* border: 1px solid black; */
   height: 70px;
@@ -196,9 +180,7 @@ select{
 
 }
 
-select:focus{
-  outline:none;
-}
+
 
 /* Mobile css */
 @media only screen and (max-width: 412px) {
@@ -222,7 +204,6 @@ select:focus{
 .bottom_nav ul {
   width:412px;
 }
-.bottom_nav ul li{
-  display: none;
+
 }
-}
+
