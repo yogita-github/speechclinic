@@ -7,7 +7,7 @@
 }
 .class1 .basic_info {
   /* border: 1px solid black; */
-  height: 850px;
+  height: 900px;
   background-color: #edf6fc;
 }
 
@@ -36,6 +36,7 @@
 
 .info-container {
   flex-grow: 1;
+ 
 }
 
 .info-container h2 {

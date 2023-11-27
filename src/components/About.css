@@ -1,0 +1,94 @@
+/* About.css */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+
+h1{
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #3498db;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1281ca;
+}
+
+/* Add more styles as needed */
+
+.team-members {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-wrap: wrap;  
+}
+
+.team-member {
+  text-align: center;  
+  width: 30%;  
+  margin: 10px;  
+}
+
+.team-member img {
+  max-width: 100%;  
+  border-radius: 50%;  
+  height: 200px;
+}
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 50%; /* Two items per row, adjust as needed */
+}
+
+.services-list img {
+  width: 80px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+/* @media (max-width: 768px) {
+  .services-list li {
+    width: 100%; /* On smaller screens, one item per row */
+  
+

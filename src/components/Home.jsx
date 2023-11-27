@@ -79,7 +79,7 @@ function Home() {
         </div>
         <div className="team">
           <h1 className="header">Our Hearing and Speech Therapists</h1>
-          <hr className="team_underline" />
+          {/* <hr className="team_underline" /> */}
           <div className="therapists-container">
             <div className="therapist">
               <img

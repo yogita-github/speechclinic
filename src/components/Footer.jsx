@@ -99,9 +99,11 @@ function Footer() {
           <p className="address_footer">
             <b>
               Address:Shop No 7, Balaji Sankul, in front of Dr. Babasaheb
-              Ambedkar Udyan, <br/>near Khwajamia Dargah, Ganesh Colony, Jalgaon,
-              Maharashtra 425001
-              <IoLocation />
+              Ambedkar Udyan, <br />
+              near Khwajamia Dargah, Ganesh Colony, Jalgaon, Maharashtra 425001
+              <Link to="/navigation">
+                <IoLocation />
+              </Link>
             </b>
           </p>
         </div>

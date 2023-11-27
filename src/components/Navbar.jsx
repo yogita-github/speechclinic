@@ -6,7 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FiWatch } from "react-icons/fi";
+
+
 
 
 
@@ -16,9 +17,14 @@ const Navbar = () => {
       <div className="parent_upper_nav">
         <div className="upper_nav">
           <p className="timing">Mon-Sat:10 am–2 pm, 4–8 pm</p>
-          
-          <Link to="#" className="rounded_button">
-            <FaPhoneAlt className="phone" />
+
+          <Link
+            to="#"
+            className="rounded_button"
+          >
+            <FaPhoneAlt
+              className="phone"
+            />
           </Link>
           <Link to="#" className="rounded_button">
             <FaFacebookF className="icon1" />
@@ -44,10 +50,12 @@ const Navbar = () => {
 
           <div className="right_nav">
             <div className="link_before">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDPMB7jV605Hwq-i67KyaxjKllOrvo5yXyg&usqp=CAU"
-                alt=""
-              />
+              <Link to="/appointment">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDPMB7jV605Hwq-i67KyaxjKllOrvo5yXyg&usqp=CAU"
+                  alt=""
+                />
+              </Link>
             </div>
             {/* <h1 className="clinic_name">Rajshri Clinic</h1> */}
           </div>

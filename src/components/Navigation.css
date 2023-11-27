@@ -1,49 +1,39 @@
 iframe{
       box-shadow: 1px 2px 3px 4px grey;
+      align-items:center;
+      justify-content: center;
 }
 
 .Navigation_tab h2{
-    text-align: left;
+    text-align: center;
     margin-left: 50px;
     text-decoration: underline;
     color: #1b6ca2;
+    padding-top: 40px;
+    font-size: 30px;
+
 }
 
 .Navigation_tab{
-    background-color: aquamarine;
-}
-.left_navi{
-     align-items: start;
-    justify-content: start;
-    display: flex;
-    float: left;
-}
-.right_div {
-  background-color: #c1ecc1; /* Light green background color */
-  padding: 20px; /* Padding for content */
-  margin: 20px; /* Margin on all sides */
-  text-align: justify; /* Justify text for even distribution */
-  float: right;
+    background-color: rgb(172, 249, 223);
+    margin-top: -25px;
 }
 
-.right_div h4 {
-  margin: 0; /* Remove default margin for the h4 element */
-  font-family: "Arial", sans-serif; /* Choose a font family */
-  font-size: 18px; /* Set font size */
-  color: #333; /* Dark text color */
+
+.paragraph_navi h4 {
+  margin-right:100px;
+  margin-left: 100px;
+  font-family: "Arial", sans-serif; 
+  font-size: 25px; 
+  color: #524b4b; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+.iframe_navi{
+    align-items: center;
+    justify-content: center;
+    margin-left:450px;
 }
 
-/* Optional: Add some additional styling for better aesthetics */
-.right_div h4 br {
-  display: none; /* Hide line breaks to prevent excessive spacing */
-}
-
-.right_div h4::before {
-  content: "\2022"; /* Use a bullet point as a list item marker */
-  margin-right: 10px;
-}
-
-.right_div h4::after {
-  content: "\2022"; /* Use a bullet point as a list item marker */
-  margin-left: 10px;
-}
